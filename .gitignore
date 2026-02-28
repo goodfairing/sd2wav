@@ -1,0 +1,18 @@
+# Swift build artifacts
+.build/
+*.o
+*.d
+*.swp
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# macOS
+.DS_Store
+._*
+
+# Probe output (generated files, not source code)
+*_probes/
+sd2wav-tool
